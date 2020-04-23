@@ -1,5 +1,9 @@
 ## How to use this repo
 
+## dependencies
+- vagrant
+- virtualbox
+
 ## To view the app go to:
 
 ```
