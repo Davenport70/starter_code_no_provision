@@ -50,6 +50,7 @@ EOF
 sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
 sudo service nginx configtest
 sudo service nginx restart
-
+sleep 10
+sudo service nginx restart
 cd /home/ubuntu/app
 nodejs app.js
